@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: var(--black);
+    background-color: var(--background);
     width: 99dvw;
     height: auto;
 }
@@ -349,10 +349,16 @@ footer ul{
    gap: 0.5em;
 }
 
- @media (max_width: 568px) {
-    section{
-        display: flex;
-        flex-direction: column;
+ @media screen and (max_with: 390px) {
+   body{
+      width: 100%;
+   }
+   nav {
+      width: 100%;
+   }
+    nav .logo{
+    display: none;
+ }
 
-    }    
+   
  }
