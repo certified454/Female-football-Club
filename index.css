@@ -19,8 +19,6 @@
 
 body {
     background-color: var(--background);
-    width: 99dvw;
-    height: auto;
 }
 
 nav {
@@ -349,12 +347,12 @@ footer ul{
    gap: 0.5em;
 }
 
- @media screen and (max_with: 390px) {
-   body{
-      width: 100%;
-   }
+ @media (max_with: 450px) {
    nav {
       width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
    }
     nav .logo{
     display: none;
