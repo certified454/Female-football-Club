@@ -71,12 +71,12 @@ nav .nav,
  }
 
 header{
-    width: auto;
+    width: 100;
     height: auto;
 }
 
 main{
-    width: auto;
+    width: 100%;
     height: 50vh;
     background-image: url(images/picture.jpeg);
     background-repeat: no-repeat;
@@ -394,13 +394,17 @@ footer ul{
       margin-inline-start: 1rem;
       font-size: 1rem;
    }
+   nav .nav li span{
+      display: none;
+   }
    nav .join {
-      width: 18dvw;
+      width: 20.5dvw;
       height: 4dvh;
+      margin-right: 1.8rem;
    }
    main {
       width: 100%;
-      margin-top: 3rem;
+      margin-top: 2.8rem;
    }
    main div {
       display: none;
@@ -410,7 +414,7 @@ footer ul{
    }
    .sport {
       position: absolute;
-      margin-top: 25.3rem;
+      margin-top: 21.3rem;
       margin-left: 1.2rem;
       font-size: 1.5em;
    }
@@ -427,9 +431,9 @@ footer ul{
    }
    .caption button{
       margin-top: -1.6rem;
-      margin-left: 11rem;
-      width: 14dvw;
-      height: 3.5dvh;
+      margin-left: 8.5rem;
+      width: 17dvw;
+      height: 3.8dvh;
       border-radius: 3px;
    }
    section {
@@ -438,10 +442,15 @@ footer ul{
       grid-template-columns: 1fr;
       justify-content: center;
       overflow: hidden;
-   } 
+   }
+  
+   .box1{
+      margin-top: -2rem;
+   }
    .box h4 {
       margin-top: -45px;
       font-size: 1.2em;
+      margin-left: 1rem;
    }
    .box h5 {
    font-size: 1em;
@@ -473,7 +482,9 @@ footer ul{
       border-radius: 15px;
    }
    .box .sync { 
-      margin-top: 1rem;
+      position: relative;
+      margin-top: 0.2rem;
+      margin-left: 0rem;
       height: 3.5dvh;
       border-radius: 15px;
     }
@@ -491,6 +502,9 @@ footer ul{
       margin-left: -2rem;
    }
    footer h4{
-      margin-left: -2rem;
+      margin-left: -3rem;
    }
+   footer ul{
+   margin-inline: -2rem;
+}
  }
