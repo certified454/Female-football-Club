@@ -19,6 +19,7 @@
 
 body {
     background-color: var(--background);
+    overflow-x: hidden;
 }
 
 nav {
@@ -71,7 +72,7 @@ nav .nav,
  }
 
 header{
-    width: 100;
+    width: 100%;
     height: auto;
 }
 
@@ -377,12 +378,19 @@ footer ul{
    gap: 0.5em;
 }
 
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 450px) {
+   html{
+      overflow-x: hidden;
+   }
+   body{
+      width: 100%;
+      overflow-x: hidden;
+   }
    nav {
-      position:fixed;
+      position: fixed;
       z-index: 1000;
       width: 100%;
-      margin-top: -3rem;
+      margin-top: rem;
       overflow: hidden;
    }
    nav .nav {
@@ -400,11 +408,12 @@ footer ul{
    nav .join {
       width: 20.5dvw;
       height: 4dvh;
-      margin-right: 1.8rem;
+      margin-top: -1.6rem;
+      margin-right: 0.8rem;
    }
    main {
       width: 100%;
-      margin-top: 2.8rem;
+      
    }
    main div {
       display: none;
@@ -430,7 +439,7 @@ footer ul{
       height: 100%;
    }
    .caption button{
-      margin-top: -1.6rem;
+      margin-top: -1.4rem;
       margin-left: 8.5rem;
       width: 17dvw;
       height: 3.8dvh;
@@ -438,10 +447,10 @@ footer ul{
    }
    section {
       width: 100%;
-      height: 88dvh;
+      height: 95dvh;
       grid-template-columns: 1fr;
       justify-content: center;
-      overflow: hidden;
+      overflow-y: hidden;
    }
   
    .box1{
@@ -468,7 +477,7 @@ footer ul{
       font-size: 1.5em;
    }
    .clubs p {
-      margin-inline: -4rem;
+      margin-inline: -5.5rem;
    }
    .box button{
       width: 75%;
@@ -494,8 +503,9 @@ footer ul{
    footer {
       height: auto;
       width: 100%;
-      margin-top: -2rem;
+      margin-top: -3rem;
       position: absolute;
+      overflow: hidden;
    }
    footer h1 {
       font-size: 1.3em;
