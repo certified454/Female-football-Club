@@ -353,21 +353,21 @@ footer h4{
    font-family: monospace;
    font-weight: bold;
    font-size: 2.5em;
-   padding-left: 50%;
+   padding-left: 40%;
    padding-top: 1%;
    color: var(--background);
 }
 
 footer h4{
-   padding-left: 20%;
+   padding-left: 5%;
    font-family: calibri;
-   font-size: 1.1em;
+   font-size: 1.5em;
    color: var(--gray);
 }
 
 .social_media {
   color: var(--gray);
-  margin-left: 1.8rem;
+  margin-left: 1.5rem;
 }
 
 footer ul{
@@ -409,7 +409,7 @@ footer ul{
       width: 20.5dvw;
       height: 4dvh;
       margin-top: -1.6rem;
-      margin-right: 0.8rem;
+      margin-right: 0.5rem;
    }
    main {
       width: 100%;
@@ -423,7 +423,7 @@ footer ul{
    }
    .sport {
       position: absolute;
-      margin-top: 21.3rem;
+      margin-top: 22rem;
       margin-left: 1.2rem;
       font-size: 1.5em;
    }
@@ -472,8 +472,8 @@ footer ul{
    }
    .box h2 {
       position: absolute;
-      margin-left: 1rem;
-      margin-top: 2.5rem;
+      margin-left: -0.5rem;
+      margin-top: 3rem;
       font-size: 1.5em;
    }
    .clubs p {
@@ -504,15 +504,16 @@ footer ul{
       height: auto;
       width: 100%;
       margin-top: -3rem;
-      position: absolute;
+      position: relative;
       overflow: hidden;
    }
    footer h1 {
-      font-size: 1.3em;
+      font-size: 1.4em;
       margin-left: -2rem;
    }
    footer h4{
-      margin-left: -3rem;
+      margin-left: -2rem;
+      font-size: 1em;
    }
    footer ul{
    margin-inline: -2rem;
