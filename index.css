@@ -70,6 +70,10 @@ nav .nav,
    border: 1.5px solid var(--tertiary_white);
    background-color: var(--botton);
  }
+ nav .join a{
+   text-decoration: none;
+   color: var(--background);
+ }
 
 header{
     width: 100%;
@@ -359,7 +363,7 @@ footer h4{
 }
 
 footer h4{
-   padding-left: 10%;
+   padding-left: 15%;
    font-family: calibri;
    font-size: 1.5em;
    color: var(--gray);
@@ -400,7 +404,7 @@ footer ul{
    } 
    .nav li, 
    li a{
-      margin-inline-start: 1rem;
+      margin-inline-start: 0.9rem;
       font-size: 1rem;
    }
    nav .nav li span{
@@ -410,7 +414,7 @@ footer ul{
       width: 20.5dvw;
       height: 4dvh;
       margin-top: -1.6rem;
-      margin-right: 0.5rem;
+      margin-right: 0.2rem;
    }
    main {
       width: 100%;
@@ -504,13 +508,13 @@ footer ul{
    footer {
       height: auto;
       width: 100%;
-      margin-top: -3rem;
+      margin-top: -5rem;
       position: relative;
       overflow: hidden;
    }
    footer h1 {
       font-size: 1.4em;
-      margin-left: -1.5rem;
+      margin-left: -1rem;
    }
    footer h4{
       margin-left: -2rem;
