@@ -429,7 +429,7 @@ footer ul{
    }
    .sport {
       position: absolute;
-      margin-top: 19.9rem;
+      margin-top: 19rem;
       margin-left: 1.2rem;
       font-size: 1.5em;
    }
@@ -458,8 +458,13 @@ footer ul{
       grid-template-columns: 1fr;
       justify-content: center;
       overflow-y: hidden;
+      margin:  0;
    }
   
+   section .box{
+      margin-inline: 0rem;
+   }
+
    section .box1{
       margin-top: -2rem;
       margin-inline: 0rem;
