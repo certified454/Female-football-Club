@@ -383,7 +383,7 @@ footer ul{
    gap: 0.5em;
 }
 
- @media screen and (max-width: 700px) {
+ @media screen and (max-width: 900px) {
    html{
       overflow-x: hidden;
    }
