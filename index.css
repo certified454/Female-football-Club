@@ -396,36 +396,26 @@ footer ul{
       overflow-x: hidden;
    }
    nav {
-      position: fixed;
+      position: relative;
       z-index: 1000;
       width: 100%;
+      height: 7vh;
       margin-top: rem;
       overflow: hidden;
    }
    nav .nav{
-        display: none;
+        display: flex;
+        align-items: center;
    } 
-   nav .navbar-toggle{
-      display: block;
+   .nav li a {
+      font-size: 0.8em;
+      margin-inline: -1em;
    }
-   nav .navbar-menu{
+   .nav .none{
       display: none;
-      flex-direction: column;
-      width: 100%;
    }
-   nav  .navbar-menu.show{
-      display: flex;
-   }
-   .navbar-items{
-      margin-left: 0;
-      margin-top: 10px;
-   }
-   .dropdown-content{
-      position: static;
-      min-width: 100%;
-      box-shadow: none;
-   }
-  .join {
+   
+  nav .join {
       width: 20.5dvw;
       height: 4dvh;
       margin-top: -1.6rem;
@@ -443,7 +433,7 @@ footer ul{
    }
    .sport {
       position: absolute;
-      margin-top: 22rem;
+      margin-top: 21.3rem;
       margin-left: 1.2rem;
       font-size: 1.5em;
    }
@@ -460,7 +450,7 @@ footer ul{
    }
    .caption button{
       margin-top: -1.4rem;
-      margin-left: 8.5rem;
+      margin-left: 8.7rem;
       width: 17dvw;
       height: 3.8dvh;
       border-radius: 3px;
@@ -529,7 +519,7 @@ footer ul{
    }
    footer h1 {
       font-size: 1.4em;
-      margin-left: -1rem;
+      margin-left: -1.3rem;
    }
    footer h4{
       margin-left: -2.3rem;
